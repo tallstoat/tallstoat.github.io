@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Uncombed Whiskers</title>
+    <link>/categories/code/</link>
+    <description>Recent content in Code on Uncombed Whiskers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | powered by &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Mon, 16 Aug 2010 20:11:32 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BBC breaking news on logging-in to your favorite shell</title>
+      <link>/post/bbc/</link>
+      <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
+      
+      <guid>/post/bbc/</guid>
+      <description>&lt;p&gt;Crude yet working one-liner; Add to your favorite .rc file and Enjoy!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pearls from the deep end =~ s/[a,s]//g</title>
+      <link>/post/pearls/</link>
+      <pubDate>Tue, 06 Jan 2009 19:26:19 +0530</pubDate>
+      
+      <guid>/post/pearls/</guid>
+      <description>&lt;p&gt;Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hola Amigo!</title>
+      <link>/post/hola/</link>
+      <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
+      
+      <guid>/post/hola/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

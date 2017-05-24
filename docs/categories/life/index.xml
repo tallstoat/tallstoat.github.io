@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Uncombed Whiskers</title>
+    <link>/categories/life/</link>
+    <description>Recent content in Life on Uncombed Whiskers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | powered by &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Wed, 11 Nov 2009 12:58:45 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yearnings</title>
+      <link>/post/yearnings/</link>
+      <pubDate>Wed, 11 Nov 2009 12:58:45 +0530</pubDate>
+      
+      <guid>/post/yearnings/</guid>
+      <description>&lt;p&gt;Strawberries and Cream.&lt;/p&gt;
+
+&lt;p&gt;Oh yeah, that was what I felt like having today; that very english summer delicacy. But alas, neither do we have strawberries lying around nor cream. Driven by my desire to sample this delectable delicacy (and not finding it close at hand), I ended up searching (yes, yes – google search – the bane of this generation and others to come) for it; and voila, stumbled upon some prose – the kind of which we don’t come across anymore.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Us</title>
+      <link>/post/us/</link>
+      <pubDate>Wed, 31 Dec 2008 11:36:52 +0530</pubDate>
+      
+      <guid>/post/us/</guid>
+      <description>&lt;p&gt;In Thud, the dwarf Bashfullsson says “I need no axe to be a dwarf, Nor do I need to hate trolls. What kind of creature defines itself by hatred?”.
+
+Don’t we?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Broken Windows Theory</title>
+      <link>/post/broken-windows/</link>
+      <pubDate>Tue, 25 Nov 2008 04:03:04 +0530</pubDate>
+      
+      <guid>/post/broken-windows/</guid>
+      <description>&lt;p&gt;Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that “in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.”
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

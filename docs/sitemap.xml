@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/bbc/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/yearnings/</loc>
+    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pearls/</loc>
+    <lastmod>2009-01-06T19:26:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/us/</loc>
+    <lastmod>2008-12-31T11:36:52+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/broken-windows/</loc>
+    <lastmod>2008-11-25T04:03:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hola/</loc>
+    <lastmod>2008-05-08T06:50:13+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/awk/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beauty/</loc>
+    <lastmod>2009-01-06T19:26:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/code/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/erlang/</loc>
+    <lastmod>2008-05-08T06:50:13+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/life/</loc>
+    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/life/</loc>
+    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/perl/</loc>
+    <lastmod>2009-01-06T19:26:19+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
