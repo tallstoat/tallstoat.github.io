@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Aug 2010 20:11:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2010 15:40:24 +0530</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS1K Winner</title>
+      <link>/post/js1k-winner/</link>
+      <pubDate>Tue, 28 Sep 2010 15:40:24 +0530</pubDate>
+      
+      <guid>/post/js1k-winner/</guid>
+      <description>&lt;p&gt;The JS1K winner has been announced. The entry is described in detail in a post by the programmer.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>BBC breaking news on logging-in to your favorite shell</title>
