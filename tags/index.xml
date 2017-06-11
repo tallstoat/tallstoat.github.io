@@ -30,6 +30,24 @@
     </item>
     
     <item>
+      <title>Code</title>
+      <link>/tags/code/</link>
+      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      
+      <guid>/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>/tags/editor/</link>
+      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      
+      <guid>/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Erlang</title>
       <link>/tags/erlang/</link>
       <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
@@ -71,6 +89,15 @@
       <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
       
       <guid>/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vi</title>
+      <link>/tags/vi/</link>
+      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      
+      <guid>/tags/vi/</guid>
       <description></description>
     </item>
     

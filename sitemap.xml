@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/vim/</loc>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/js1k-winner/</loc>
     <lastmod>2010-09-28T15:40:24+05:30</lastmod>
   </url>
@@ -55,8 +60,20 @@
   </url>
   
   <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/code/</loc>
-    <lastmod>2010-09-28T15:40:24+05:30</lastmod>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/editor/</loc>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,13 +90,13 @@
   </url>
   
   <url>
-    <loc>/categories/life/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2009-11-11T12:58:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/life/</loc>
+    <loc>/categories/life/</loc>
     <lastmod>2009-11-11T12:58:45+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -92,7 +109,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2010-09-28T15:40:24+05:30</lastmod>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,7 +127,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2010-09-28T15:40:24+05:30</lastmod>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vi/</loc>
+    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   

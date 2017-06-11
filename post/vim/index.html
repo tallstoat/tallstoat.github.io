@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pearls from the deep end =~ s/[a,s]//g</title>
+<title>Picking a code editor</title>
 <meta name="description" content=" Shahid Khan&#39;s Personal blog about tech &amp; life">
 <meta name="generator" content="Hugo 0.21" />
-<meta property="og:title" content="Pearls from the deep end =~ s/[a,s]//g" />
-<meta property="og:description" content="Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission
+<meta property="og:title" content="Picking a code editor" />
+<meta property="og:description" content="If you are a programmer, it would&rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&rsquo;s the programmer&rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/pearls/" />
+<meta property="og:url" content="/post/vim/" />
 
 
 
-<meta property="article:published_time" content="2009-01-06T19:26:19&#43;05:30"/>
-<meta property="article:modified_time" content="2009-01-06T19:26:19&#43;05:30"/>
+<meta property="article:published_time" content="2010-11-25T23:15:23&#43;05:30"/>
+<meta property="article:modified_time" content="2010-11-25T23:15:23&#43;05:30"/>
 
 
 
@@ -55,44 +55,106 @@
 <div class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">Pearls from the deep end =~ s/[a,s]//g</h1>
+			<h1 class="post__title">Picking a code editor</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2009-01-06T19:26:19">January 06, 2009</time>
+				<time class="post__meta-date" datetime="2010-11-25T23:15:23">November 25, 2010</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
 					<a class="meta-categories__link" href="/categories/code" rel="category">code</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			<p>Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission
+			<p>If you are a programmer, it would&rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&rsquo;s the programmer&rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.
 </p>
 
-<p>In article , Tom Gordon wrote:</p>
+<p>Despite editors being such indispensable tools for the art of progamming, there is not a lot of material out there which helps a programmer in choosing one; specially when the programmer is a novice and just starting out. More often than not, the programmer concentrates on the language he/she is going to be working with, googles for the <strong>industry leading editor</strong> in that space, and picks the one at the top of the search results.</p>
 
-<blockquote>
-<p>About Scheme being “ugly”. Experience shows that there is no
-point in arguing this issue. Many, including myself, find Scheme
-elegant and beautiful — especially compared to baroque languages
-like TCL and Perl.</p>
-</blockquote>
+<p>If it&rsquo;s Java, the choice tends to be Eclipse or IntelliJ (if the employer is willing to foot the bill). If it&rsquo;s one of the M$ languages, the choice tends to be Visual Studio and so on. In effect, the programmer chooses an IDE (Integrated Development Environment) when the goal <strong>should be</strong> to choose an editor.</p>
 
-<p>To which, Larry Wall replied:</p>
+<p>Most IDEs undoubtedly tend to be great at supporting templatized language features, build tool integration, refactoring, code completion etc. However, in my humble opinion, the choice of an editor by a programmer should be based primarily on the following basic criteria &amp; not solely on all the bells and whistles provided by an IDE :-</p>
 
-<blockquote>
-<p>While I do consider the adjective “baroque” to be a compliment, I must
-point out that Perl is actually more of a romantic piece, with allusions
-to various classical motifs. My favorite composer is Mahler, which should surprise no one.</p>
-</blockquote>
+<ul>
+<li>Support for code navigation (within the opened file)</li>
+<li>Support for editing code quickly with the least amount of keystrokes</li>
+<li>Support for creating one&rsquo;s own macros and commands</li>
+</ul>
 
-<p>PS: The article is <a href="https://groups.google.com/forum/#!topic/comp.lang.scheme/BvBYjh5MmZ0">here</a></p>
+<p>Most IDEs when it comes to the actual <strong>code editing</strong> tend to be <strong>clones of notepad</strong>, others <em>assume</em> that you would use a pointing device (that mousey thing) and yet others provide their own language of navigation. The problem with all this is that depending upon the IDE you have to wrestle with (on a given day), you have to either keep clicking with the mouse, train your muscles to learn the shortcuts all over again or in the case of the uninitiated keep tapping the arrow keys!</p>
+
+<p>Another and need I say, better option is to enable the <em>Vi</em> plugin/mode (which exists for most of these IDEs) &amp; all your built-up muscle memory can be put to good use.</p>
+
+<p>So, now let&rsquo;s see how the code navigation language of <strong>Vi</strong> (or its new avatar, <strong>Vim</strong>) works.</p>
+
+<h2 id="code-navigation-with-vi">Code navigation with Vi</h2>
+
+<p>Before we start, you need to be aware of the different modes of Vi. In brief, there are three.</p>
+
+<ul>
+<li>Command mode</li>
+<li>Insert mode</li>
+<li>Last line mode</li>
+</ul>
+
+<p>There are various articles explaining how to go from one mode to the other. For the purposes of this article, you need to be in <strong>Command mode</strong> (most of the time).</p>
+
+<p>OK. So, I&rsquo;ll now explain with examples, what I mean by code navigation &amp; learning a language for it. Let&rsquo;s first start with navigation within a line.</p>
+
+<pre><code>☛The quick brown fox jumps over the lazy dog
+</code></pre>
+
+<p>Look at the text above. Your cursor is at the start of the line (marked by ☛) and you want to go to the end of the line. Make sure you are in <strong>Command mode</strong>.</p>
+
+<p>How do you do that today? Do you remember the IDE shortcuts (which change across operating systems)? Do you use a mouse? Do you use the arrow keys?</p>
+
+<p>Well, in vi you would just press the <strong>$</strong> key and&hellip;</p>
+
+<pre><code>The quick brown fox jumps over the lazy dog☚
+</code></pre>
+
+<p>Changed your mind? Want to go back to the start of the line? just press the <strong>0</strong> key and&hellip;</p>
+
+<pre><code>☛The quick brown fox jumps over the lazy dog
+</code></pre>
+
+<p>&hellip; you&rsquo;re back where you started!</p>
+
+<p>Well, that was too easy. Now, let&rsquo;s say you want to go to the start of the word <strong>jumps</strong>. In vi, you can get there in multiple ways.</p>
+
+<p>But before we go over that, you need to first understand which navigation technique to use when. That is really critical to get good at navigation. It involves taking in the whole line <strong>visually</strong> and identifying what is in a way <strong>unique</strong> about where you want to navigate to i.e. your cursor&rsquo;s next destination.</p>
+
+<p>If you look at our example line, you can see that our intended cursor destination is the first and only occurence of the letter <strong>j</strong> on this line. Once you realize this, a handy vi navigation directive can be used to get there. It&rsquo;s called <strong>f</strong> which is short for <strong>forward</strong>. If you press <strong>f</strong> followed by <strong>j</strong> (which is the intended character to go to)&hellip;</p>
+
+<pre><code>The quick brown fox ☛jumps over the lazy dog
+</code></pre>
+
+<p>&hellip;you are there at the start of <strong>jumps</strong>!</p>
+
+<p>What if you were at the end of the line and wanted to get to the start of <strong>jumps</strong>? Easy. Use the <strong>F</strong> directive (Notice the uppercase) which helps you go to characters backward. Press <strong>F</strong> followed by <strong>j</strong> (which is the intended character to go to) and you are there! Wasn&rsquo;t that cool?</p>
+
+<p>What if you just feel a bit trigger-happy and want to <strong>advance word by word</strong> to <strong>jumps</strong>? Well, just use the <strong>w</strong> key; short for <strong>moving forward word by word</strong>.</p>
+
+<p>What if you are at the end of the line and want to <strong>move backward word by word</strong>? Use the <strong>b</strong> key; short for &lsquo;moving backward word by word&rsquo;.</p>
+
+<p>And if you want to move forward word by word but want the cursor to move to the end of the word? Use the <strong>e</strong> key. Simple!</p>
+
+<p>At another level, you might have also realized that the word <strong>jumps</strong> is the first and only occurence of this word on this line. That means that you can just jump to the <strong>Last line mode</strong> by pressing <strong>/</strong> and then typing the pattern which you want to search for and then press Enter key. In this case, it would be <strong>/jumps</strong> and then Enter; and you are there!</p>
+
+<p>So, that&rsquo;s multiple different ways to get there and all of them more efficient than what you would be used to if you havent used vi before.</p>
+
+<p>This is just a glimpse of what is possible with vi. This was just finding your way around a line of text. Vi has multiple other mechanisms to find your way quickly around paragraphs of text &amp; code.</p>
+
+<p>I hope this article has tingled your curiosity enough to go check out vi in detail. Trust me if you are a developer and you don&rsquo;t know vi&rsquo;s language of navigation; you are missing something.</p>
+
+<p>Happy vi to you! :wq!</p>
 		</div>
 		
 <div class="post__tags tags clearfix">
 	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/perl/" rel="tag">perl</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/beauty/" rel="tag">beauty</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/code/" rel="tag">code</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/vi/" rel="tag">vi</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/editor/" rel="tag">editor</a></li>
 	</ul>
 </div>
 
@@ -101,10 +163,7 @@ to various classical motifs. My favorite composer is Mahler, which should surpri
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/us/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Us</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/yearnings/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Yearnings</p></a>
+		<a class="post-nav__link" href="/post/js1k-winner/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">JS1K Winner</p></a>
 	</div>
 </nav>
 
