@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politics on Uncombed Whiskers</title>
+    <link>/tags/politics/</link>
+    <description>Recent content in Politics on Uncombed Whiskers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Feb 2011 23:11:36 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The circus is in town</title>
+      <link>/post/circus/</link>
+      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
+      
+      <guid>/post/circus/</guid>
+      <description>&lt;p&gt;Read an article on &lt;a href=&#34;http://www.haaretz.com&#34;&gt;Haaretz&lt;/a&gt; last year. Sadly can&amp;rsquo;t find the link online anymore. Thankfully, I had the gist copied elsewhere.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

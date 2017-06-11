@@ -6,10 +6,42 @@
     <description>Recent content on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2010 23:15:23 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2011 23:16:27 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ORA-04091</title>
+      <link>/post/ora-04091/</link>
+      <pubDate>Wed, 23 Nov 2011 23:16:27 +0530</pubDate>
+      
+      <guid>/post/ora-04091/</guid>
+      <description>&lt;p&gt;Sounds familiar? A friend encountered it recently.&lt;/p&gt;
+
+&lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scratchin &amp; Squeakin</title>
+      <link>/post/scratch/</link>
+      <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
+      
+      <guid>/post/scratch/</guid>
+      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The circus is in town</title>
+      <link>/post/circus/</link>
+      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
+      
+      <guid>/post/circus/</guid>
+      <description>&lt;p&gt;Read an article on &lt;a href=&#34;http://www.haaretz.com&#34;&gt;Haaretz&lt;/a&gt; last year. Sadly can&amp;rsquo;t find the link online anymore. Thankfully, I had the gist copied elsewhere.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Picking a code editor</title>

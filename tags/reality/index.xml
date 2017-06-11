@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reality on Uncombed Whiskers</title>
+    <link>/tags/reality/</link>
+    <description>Recent content in Reality on Uncombed Whiskers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2011 22:41:32 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scratchin &amp; Squeakin</title>
+      <link>/post/scratch/</link>
+      <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
+      
+      <guid>/post/scratch/</guid>
+      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Us</title>
+      <link>/post/us/</link>
+      <pubDate>Wed, 31 Dec 2008 11:36:52 +0530</pubDate>
+      
+      <guid>/post/us/</guid>
+      <description>&lt;p&gt;In Thud, the dwarf Bashfullsson says “I need no axe to be a dwarf, Nor do I need to hate trolls. What kind of creature defines itself by hatred?”.
+
+Don’t we?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

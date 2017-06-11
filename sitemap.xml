@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/ora-04091/</loc>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/scratch/</loc>
+    <lastmod>2011-10-14T22:41:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/circus/</loc>
+    <lastmod>2011-02-18T23:11:36+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/vim/</loc>
     <lastmod>2010-11-25T23:15:23+05:30</lastmod>
   </url>
@@ -60,14 +75,14 @@
   </url>
   
   <url>
-    <loc>/tags/code/</loc>
-    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <loc>/categories/code/</loc>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/code/</loc>
-    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <loc>/tags/cravings/</loc>
+    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -90,14 +105,20 @@
   </url>
   
   <url>
-    <loc>/tags/life/</loc>
-    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
+    <loc>/tags/leadership/</loc>
+    <lastmod>2011-02-18T23:11:36+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2009-11-11T12:58:45+05:30</lastmod>
+    <lastmod>2011-10-14T22:41:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/oracle/</loc>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,14 +129,44 @@
   </url>
   
   <url>
+    <loc>/tags/politics/</loc>
+    <lastmod>2011-02-18T23:11:36+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rant/</loc>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reality/</loc>
+    <lastmod>2011-10-14T22:41:32+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/shell/</loc>
     <lastmod>2010-08-16T20:11:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/smalltalk/</loc>
+    <lastmod>2011-10-14T22:41:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/study/</loc>
+    <lastmod>2008-11-25T04:03:04+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -127,7 +178,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2010-11-25T23:15:23+05:30</lastmod>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
