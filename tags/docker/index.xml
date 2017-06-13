@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beauty on Uncombed Whiskers</title>
-    <link>/tags/beauty/</link>
-    <description>Recent content in Beauty on Uncombed Whiskers</description>
+    <title>Docker on Uncombed Whiskers</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in Docker on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
     
-	<atom:link href="/tags/beauty/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/post/docker-container-names/</guid>
       <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated? Let me unravel this mystery for you today.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pearls from the deep end =~ s/[a,s]//g</title>
-      <link>/post/pearls/</link>
-      <pubDate>Tue, 06 Jan 2009 19:26:19 +0530</pubDate>
-      
-      <guid>/post/pearls/</guid>
-      <description>&lt;p&gt;Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission
 &lt;/p&gt;</description>
     </item>
     

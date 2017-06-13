@@ -6,10 +6,20 @@
     <description>Recent content in Code on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2011 23:16:27 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
     
 	<atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quirky Container Names</title>
+      <link>/post/docker-container-names/</link>
+      <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
+      
+      <guid>/post/docker-container-names/</guid>
+      <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated? Let me unravel this mystery for you today.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ORA-04091</title>
