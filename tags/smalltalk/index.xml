@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Smalltalk on Uncombed Whiskers</title>
+    <title>smalltalk on Uncombed Whiskers</title>
     <link>/tags/smalltalk/</link>
-    <description>Recent content in Smalltalk on Uncombed Whiskers</description>
+    <description>Recent content in smalltalk on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Oct 2011 22:41:32 +0530</lastBuildDate>
@@ -17,8 +17,7 @@
       <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
       
       <guid>/post/scratch/</guid>
-      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.&lt;/p&gt;</description>
     </item>
     
   </channel>

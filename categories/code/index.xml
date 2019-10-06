@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Uncombed Whiskers</title>
+    <title>code on Uncombed Whiskers</title>
     <link>/categories/code/</link>
-    <description>Recent content in Code on Uncombed Whiskers</description>
+    <description>Recent content in code on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
@@ -17,8 +17,7 @@
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
       
       <guid>/post/docker-container-names/</guid>
-      <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated? Let me unravel this mystery for you today.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated? Let me unravel this mystery for you today.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,8 +28,7 @@
       <guid>/post/ora-04091/</guid>
       <description>&lt;p&gt;Sounds familiar? A friend encountered it recently.&lt;/p&gt;
 
-&lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.
-&lt;/p&gt;</description>
+&lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,8 +37,7 @@
       <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
       
       <guid>/post/scratch/</guid>
-      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,8 +46,7 @@
       <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
       
       <guid>/post/vim/</guid>
-      <description>&lt;p&gt;If you are a programmer, it would&amp;rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&amp;rsquo;s the programmer&amp;rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you are a programmer, it would&amp;rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&amp;rsquo;s the programmer&amp;rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -59,9 +55,7 @@
       <pubDate>Tue, 28 Sep 2010 15:40:24 +0530</pubDate>
       
       <guid>/post/js1k-winner/</guid>
-      <description>&lt;p&gt;The JS1K winner has been announced. The entry is described in detail in a post by the programmer.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;The JS1K winner has been announced. The entry is described in detail in a post by the programmer.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,8 +64,7 @@
       <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
       
       <guid>/post/bbc/</guid>
-      <description>&lt;p&gt;Crude yet working one-liner; Add to your favorite .rc file and Enjoy!
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Crude yet working one-liner; Add to your favorite .rc file and Enjoy!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,8 +73,7 @@
       <pubDate>Tue, 06 Jan 2009 19:26:19 +0530</pubDate>
       
       <guid>/post/pearls/</guid>
-      <description>&lt;p&gt;Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,7 +82,7 @@
       <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
       
       <guid>/post/hola/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description></description>
     </item>
     
   </channel>

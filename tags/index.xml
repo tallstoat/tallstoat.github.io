@@ -6,22 +6,13 @@
     <description>Recent content in Tags on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Aug 2010 20:11:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Awk</title>
-      <link>/tags/awk/</link>
-      <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
-      
-      <guid>/tags/awk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beauty</title>
+      <title>beauty</title>
       <link>/tags/beauty/</link>
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
       
@@ -30,16 +21,7 @@
     </item>
     
     <item>
-      <title>Cravings</title>
-      <link>/tags/cravings/</link>
-      <pubDate>Wed, 11 Nov 2009 12:58:45 +0530</pubDate>
-      
-      <guid>/tags/cravings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
+      <title>docker</title>
       <link>/tags/docker/</link>
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
       
@@ -48,25 +30,7 @@
     </item>
     
     <item>
-      <title>Editor</title>
-      <link>/tags/editor/</link>
-      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
-      
-      <guid>/tags/editor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Erlang</title>
-      <link>/tags/erlang/</link>
-      <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
-      
-      <guid>/tags/erlang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
+      <title>golang</title>
       <link>/tags/golang/</link>
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
       
@@ -75,25 +39,7 @@
     </item>
     
     <item>
-      <title>Js</title>
-      <link>/tags/js/</link>
-      <pubDate>Tue, 28 Sep 2010 15:40:24 +0530</pubDate>
-      
-      <guid>/tags/js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leadership</title>
-      <link>/tags/leadership/</link>
-      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
-      
-      <guid>/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oracle</title>
+      <title>oracle</title>
       <link>/tags/oracle/</link>
       <pubDate>Wed, 23 Nov 2011 23:16:27 +0530</pubDate>
       
@@ -102,25 +48,7 @@
     </item>
     
     <item>
-      <title>Perl</title>
-      <link>/tags/perl/</link>
-      <pubDate>Tue, 06 Jan 2009 19:26:19 +0530</pubDate>
-      
-      <guid>/tags/perl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Politics</title>
-      <link>/tags/politics/</link>
-      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
-      
-      <guid>/tags/politics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rant</title>
+      <title>rant</title>
       <link>/tags/rant/</link>
       <pubDate>Wed, 23 Nov 2011 23:16:27 +0530</pubDate>
       
@@ -129,7 +57,7 @@
     </item>
     
     <item>
-      <title>Reality</title>
+      <title>reality</title>
       <link>/tags/reality/</link>
       <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
       
@@ -138,16 +66,7 @@
     </item>
     
     <item>
-      <title>Shell</title>
-      <link>/tags/shell/</link>
-      <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
-      
-      <guid>/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smalltalk</title>
+      <title>smalltalk</title>
       <link>/tags/smalltalk/</link>
       <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
       
@@ -156,7 +75,88 @@
     </item>
     
     <item>
-      <title>Study</title>
+      <title>leadership</title>
+      <link>/tags/leadership/</link>
+      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
+      
+      <guid>/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politics</title>
+      <link>/tags/politics/</link>
+      <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
+      
+      <guid>/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editor</title>
+      <link>/tags/editor/</link>
+      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      
+      <guid>/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vi</title>
+      <link>/tags/vi/</link>
+      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      
+      <guid>/tags/vi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>/tags/js/</link>
+      <pubDate>Tue, 28 Sep 2010 15:40:24 +0530</pubDate>
+      
+      <guid>/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awk</title>
+      <link>/tags/awk/</link>
+      <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
+      
+      <guid>/tags/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>/tags/shell/</link>
+      <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
+      
+      <guid>/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cravings</title>
+      <link>/tags/cravings/</link>
+      <pubDate>Wed, 11 Nov 2009 12:58:45 +0530</pubDate>
+      
+      <guid>/tags/cravings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perl</title>
+      <link>/tags/perl/</link>
+      <pubDate>Tue, 06 Jan 2009 19:26:19 +0530</pubDate>
+      
+      <guid>/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
       <link>/tags/study/</link>
       <pubDate>Tue, 25 Nov 2008 04:03:04 +0530</pubDate>
       
@@ -165,11 +165,11 @@
     </item>
     
     <item>
-      <title>Vi</title>
-      <link>/tags/vi/</link>
-      <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
+      <title>erlang</title>
+      <link>/tags/erlang/</link>
+      <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
       
-      <guid>/tags/vi/</guid>
+      <guid>/tags/erlang/</guid>
       <description></description>
     </item>
     

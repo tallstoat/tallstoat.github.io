@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Editor on Uncombed Whiskers</title>
+    <title>editor on Uncombed Whiskers</title>
     <link>/tags/editor/</link>
-    <description>Recent content in Editor on Uncombed Whiskers</description>
+    <description>Recent content in editor on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Nov 2010 23:15:23 +0530</lastBuildDate>
@@ -17,8 +17,7 @@
       <pubDate>Thu, 25 Nov 2010 23:15:23 +0530</pubDate>
       
       <guid>/post/vim/</guid>
-      <description>&lt;p&gt;If you are a programmer, it would&amp;rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&amp;rsquo;s the programmer&amp;rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you are a programmer, it would&amp;rsquo;nt be an exaggeration to say that at least half of your life is spent within an editor. You are in your element within the editor. It&amp;rsquo;s the programmer&amp;rsquo;s domain where he/she creates something out of nothing, in a manner of speaking. Given this, it is really really important for a programmer to be the master of the editor he/she works with on a daily basis.&lt;/p&gt;</description>
     </item>
     
   </channel>

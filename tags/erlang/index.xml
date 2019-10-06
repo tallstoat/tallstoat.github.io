@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Erlang on Uncombed Whiskers</title>
+    <title>erlang on Uncombed Whiskers</title>
     <link>/tags/erlang/</link>
-    <description>Recent content in Erlang on Uncombed Whiskers</description>
+    <description>Recent content in erlang on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 May 2008 06:50:13 +0530</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 08 May 2008 06:50:13 +0530</pubDate>
       
       <guid>/post/hola/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description></description>
     </item>
     
   </channel>
