@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/beauty/</loc>
-    <lastmod>2017-06-13T22:54:35+05:30</lastmod>
+    <loc>/tags/algorithm/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2017-06-13T22:54:35+05:30</lastmod>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
   </url>
   
   <url>
     <loc>/categories/code/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tcp/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tcp-congestion/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-26T13:38:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/beauty/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
   </url>
   
@@ -28,22 +58,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/docker-container-names/</loc>
-    <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
   </url>
   

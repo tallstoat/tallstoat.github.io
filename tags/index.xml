@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 13:38:18 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>algorithm</title>
+      <link>/tags/algorithm/</link>
+      <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
+      
+      <guid>/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tcp</title>
+      <link>/tags/tcp/</link>
+      <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
+      
+      <guid>/tags/tcp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>beauty</title>

@@ -6,10 +6,21 @@
     <description>Recent content on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 13:38:18 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TCP Congestion Control: I</title>
+      <link>/post/tcp-congestion/</link>
+      <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
+      
+      <guid>/post/tcp-congestion/</guid>
+      <description>It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.
+Cause, heck; why not!
+Networks are fascinating things; Links and network elements working together to ferry bytes from point A to point B.</description>
+    </item>
     
     <item>
       <title>Quirky Container Names</title>

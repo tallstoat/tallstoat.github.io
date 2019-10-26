@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Broken Windows Theory</title>
+<title>TCP Congestion Control: I</title>
 <meta name="description" content=" Shahid Khan&#39;s Personal blog about tech &amp; life">
 <meta name="generator" content="Hugo 0.58.3" />
-<meta property="og:title" content="Broken Windows Theory" />
-<meta property="og:description" content="Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that “in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.”" />
+<meta property="og:title" content="TCP Congestion Control: I" />
+<meta property="og:description" content="It&rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp; the underlying algorithms.
+Cause, heck; why not!
+Networks are fascinating things; Links and network elements working together to ferry bytes from point A to point B." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/broken-windows/" />
-<meta property="article:published_time" content="2008-11-25T04:03:04+05:30" />
-<meta property="article:modified_time" content="2008-11-25T04:03:04+05:30" />
+<meta property="og:url" content="/post/tcp-congestion/" />
+<meta property="article:published_time" content="2019-10-26T13:38:18+05:30" />
+<meta property="article:modified_time" content="2019-10-26T13:38:18+05:30" />
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
@@ -41,29 +43,52 @@
 <div class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">Broken Windows Theory</h1>
+			<h1 class="post__title">TCP Congestion Control: I</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2008-11-25T04:03:04">November 25, 2008</time>
+				<time class="post__meta-date" datetime="2019-10-26T13:38:18">October 26, 2019</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/life" rel="category">life</a></span>
+					<a class="meta-categories__link" href="/categories/code" rel="category">code</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			<p>Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that “in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.”</p>
+			<p>It&rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp; the underlying algorithms.</p>
 
-<p>The podcast is <a href="https://www.scientificamerican.com/podcast/episode/broken-windows-crime-theory-08-11-24/">here</a></p>
+<p>Cause, heck; why not!</p>
 
-<p>Maybe because they figure no one will care. Or there’s little chance they’ll get caught.</p>
+<p>Networks are fascinating things; Links and network elements working together to ferry bytes from point A to point B. As with everything else, each link and network element has varied resources and performance. Ah, the constraints of the real world!</p>
 
-<p>Applies to software too, in my opinion – <strong>Ugly code begets more ugliness</strong>.</p>
+<p>Any real network is not infinitely scalable and has limited data carrying capacity. Given that, how does it effectively and fairly allocate resources among it&rsquo;s users? Remember, the resources are the bandwidth of the links, the buffers on the routers/switches etc. Age old problems!</p>
+
+<p>All packets contend at a router for the use of a link. Each such contending packet is placed in a queue on the router, where it waits for its turn to be transmitted over the link. When you have too many such packets contending for the same link, the queue fills up. At first the packets start experiencing increased end-to-end delay, and eventually the queue overflows and packets are dropped by the router. Over time, if these long queues become the norm and drops more frequent, the network is said to be congested.</p>
+
+<p>Most networks provide congestion-control mechanisms to deal with such situations. These mechanisms are typically available and implemented on both hosts and network elements like routers/switches. Let&rsquo;s dig into how they typically work on hosts for now.</p>
+
+<p>Each host (the one that&rsquo;s starting the transmission) or more specifically its tcp stack needs to gauge how much capacity is available in the network. That will help it in figuring out how many packets it can safely have in transit at any given time. The network however does not advertise this information (duh) so it&rsquo;s up to each host to determine it on it&rsquo;s own. How does it do that? Well, it starts off by sending packets. When it recieves an ACK, it now knows that one of its packets has left the network. Which means, that the network has the capacity to handle one more packet now i.e. without increasing congestion. The host uses these ACKs to pace the transmission of packets. Of course, there are many other hosts using the network and at any point of time they may or may not be using the network, which means that the available network capacity changes over time. This means that any host must be able to adjust the number of packets it has in transit factoring all these in dynamically. Well, good luck doing that effectively! But as it turns out, TCP provides vaious algorithms for just this purpose.</p>
+
+<p>Most congestion control algorithms are loss-based i.e. they depend on packet loss as a signal to control the packet transmission rate. Some of them are <strong>Tahoe, Reno and CUBIC</strong>. All of these are typically based on some common underlying concepts like:</p>
+
+<ul>
+<li>Congestion Window: <a href="https://en.wikipedia.org/wiki/TCP_congestion_control#Congestion_window">https://en.wikipedia.org/wiki/TCP_congestion_control#Congestion_window</a></li>
+<li>AIMD (Additive Increase/Multiplicative Decrease): <a href="https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease">https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease</a></li>
+<li>Slow Start: <a href="https://en.wikipedia.org/wiki/TCP_congestion_control#Slow_start">https://en.wikipedia.org/wiki/TCP_congestion_control#Slow_start</a></li>
+<li>Fast Retransmit: <a href="https://en.wikipedia.org/wiki/TCP_congestion_control#Fast_retransmit">https://en.wikipedia.org/wiki/TCP_congestion_control#Fast_retransmit</a></li>
+</ul>
+
+<p>Then there is <strong>BBR</strong> which gives relatively little weight to packet loss. Instead, it focuses on actual bandwidth of data delivered to the other end of the pipe. Whenever an ACK is received, it updates its measurement of the amount of data delivered. The cumulative sum of data delivered over a given period of time is a reasonably good indicator of the bandwidth the connection is able to provide; which it relies on.</p>
+
+<p>Now, I imagine all this is too hard to chew and as it is, its too taxing on my fingers to get this laid out in one go; so I&rsquo;ll call it a day and leave it to you to go look into these algorithms and the concepts on which most of these are based on.</p>
+
+<p>In subsequent posts, hopefully I&rsquo;ll get to some of them. Hope lives. Cheers!</p>
+
 		</div>
 		
 <div class="post__tags tags clearfix">
 	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/study/" rel="tag">study</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/tcp/" rel="tag">tcp</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/algorithm/" rel="tag">algorithm</a></li>
 	</ul>
 </div>
 
@@ -72,10 +97,7 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/hola/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Hola Amigo!</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/us/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Us</p></a>
+		<a class="post-nav__link" href="/post/docker-container-names/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Quirky Container Names</p></a>
 	</div>
 </nav>
 
