@@ -3,18 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tags</title>
+<title>TCP Congestion Control II: Concepts</title>
 <meta name="description" content=" Shahid Khan&#39;s Personal blog about tech &amp; life">
 <meta name="generator" content="Hugo 0.58.3" />
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content=" Shahid Khan&#39;s Personal blog about tech &amp; life" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tags/" />
-
-<meta property="og:updated_time" content="2019-10-27T11:20:23+05:30" />
+<meta property="og:title" content="TCP Congestion Control II: Concepts" />
+<meta property="og:description" content="Ah, so we&rsquo;re back again. Let&rsquo;s see if we can cover some distance this time.
+In the last post, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.
+Modeling Networks While modeling networks in order to figure out strategies to combat congestion, one question almost always pops up." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/tcp-congestion2/" />
+<meta property="article:published_time" content="2019-10-27T11:20:23+05:30" />
+<meta property="article:modified_time" content="2019-10-27T11:20:23+05:30" />
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="alternate" type="application/rss+xml" title="Uncombed Whiskers Feed" href="/tags/index.xml">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 <script type="text/javascript" src="/js/scripts.js"></script>
@@ -38,19 +40,108 @@
 		</header>
 		<div class="wrapper clearfix">
 
-	<div class="main-content loop content" role="main">
-		<header class="page-header">
-			<h1 class="page-header__groovy_title"> >> Tags &lt;&lt; </h1>
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">TCP Congestion Control II: Concepts</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2019-10-27T11:20:23">October 27, 2019</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/code" rel="category">code</a></span>
+			</p>
 		</header>
-			<div class="warning">
-				<svg class="warning__icon icon icon-files" viewBox="0 0 384 384" width="96" height="96" xmlns="http://www.w3.org/2000/svg" fill="#ddd"><path d="m368 64h-224-16v16 288 16h16 224 16v-16-288-16zm-16 288h-192v-256h192zm-320-320h192v16h32v-32-16h-16-224-16v16 288 16h16 96v-32h-80zm144 272h160v-32h-160zm0-64h160v-32h-160zm0-64h160v-32h-160zm-128 64h64v-32h-64zm0-64h64v-32h-64zm0-64h64v-32h-64z"/></svg>
-				<h3 class="warning__headline">You don't have any posts yet!</h3>
-				<p class="warning__text">As posts are added in content/post folder, they'll appear here.</p>
-			</div>
+		<div class="post__content clearfix">
+			
 
+<p>Ah, so we&rsquo;re back again. Let&rsquo;s see if we can cover some distance this time.</p>
+
+<p>In the <a href="/post/tcp-congestion">last post</a>, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.</p>
+
+<h3 id="modeling-networks">Modeling Networks</h3>
+
+<p>While modeling networks in order to figure out strategies to combat congestion, one question almost always pops up. A network has so many end hosts, links and network elements. How do we figure out congestion control in such a network?</p>
+
+<p>Well, the way to look at it is that at any time, there will be 1 slowest link or bottleneck in any given path from host A to B. This slowest link will determine the connection&rsquo;s maximum rate of data transfer. Eventually, all the queues for links which are upstream of this bottleneck will migrate to the bottleneck since they have faster departure rates. So, this path between A to B can be modeled as a single link with the same RTT (round-trip time) and bottleneck rate.</p>
+
+<h3 id="bandwidth-delay-product-bdp">Bandwidth Delay Product (BDP)</h3>
+
+<p>Delay of a link is the time it takes for one packet to go from start to end of a link. Bandwidth of a link is the number of packets that can pass through the link per second. BDP is a product of the bandwidth and the delay of the link. Essentially, it&rsquo;s the number of bytes that can fit on the link at any given point in time.</p>
+
+<h3 id="congestion-window-cw">Congestion Window (CW)</h3>
+
+<p>CW is the number of packets that a sender can send without having seen an ACK yet. If the CW on the sender is 5, it means that after the sender has sent 5 packets, it must wait to get an ACK in order to send any more. CW is essentially the number of packets in-transit or in-flight at any given point of time.</p>
+
+<p>Higher the CW, more the number of packets we can send in the same time period. However, raising CW too high will lead to congestion. The goal of a congestion-control algorithm, therefore is to figure out the right size of CW. Ideally, it should be equal to the BDP of the link. This would mean that the link is fully utilized.</p>
+
+<h3 id="additive-increase-multiplicative-decrease-aimd">Additive Increase/Multiplicative Decrease (AIMD)</h3>
+
+<p>AIMD is a generic feedback control algorithm. In the context of TCP congestion, this dictates additive increase of the CW till congestion is detected. On congestion detection, the algorithm mandates multiplicative decrease of CW. Effectively with AIMD, CW increase is linear to the point of congestion detection; the CW decrease thereafter is exponential.</p>
+
+<p>Different loss-control algorithms use variations of this generic algorithm leading to different link-utilization behavior. For instance, Tahoe on detecting congestion resets CW to 1 Packet. Reno on the other hand, resets CW to half of the previous CW.</p>
+
+<h3 id="slow-start">Slow Start</h3>
+
+<p>The linear CW increase in AIMD works well, when sender is operating close to BDP. However, when starting from scratch it&rsquo;s fairly slow to utilize the available link capacity. That&rsquo;s why TCP provides a different mechanism called Slow Start (misnomer?). Slow Start actually increases CW exponentially rather than linearly. This is how it operates:</p>
+
+<ul>
+<li>Sender sets CW to 1 packet and sends it out.</li>
+<li>When it receives the ACK, it sets CW to CW+1.</li>
+<li>Sender then sends 2 packets.</li>
+<li>On receiving corresponding 2 ACKs, it sets CW to CW+2 (one for each ACK)</li>
+<li>Sender then sends 4 packets and so on and so forth.</li>
+</ul>
+
+<p>As you can see, this is exponential increase.</p>
+
+<p>When does Slow Start run? It actually runs in two different situations.</p>
+
+<ul>
+<li>The first is at the start of a connection, when the sender has no idea about the network capacity and hence no known value of CW.</li>
+<li>The second is when the connection goes dead while waiting for a timeout to occur. In this case, sender has a value of CW, lets call it CW<sub>target</sub> which is the CW (prior to congestion detection)/2. In this case, sender using Slow Start exponentially increases CW to get to CW<sub>target</sub> and then switches to additive increase till it detects congestion again.</li>
+</ul>
+
+<h3 id="fast-retransmit">Fast Retransmit</h3>
+
+<p>Fast retransmit triggers resend of dropped packets sooner than regular timeouts. This is done to improve link utilization. This is how it works:</p>
+
+<ul>
+<li>Every time a packet arrives out of order at a receiver, it resends the same ACK it had sent last time. This is duplicate ACKing.</li>
+<li>When the sender sees a duplicate ACK, it knows that the receiver has received a packet out of order.</li>
+<li>But the earlier packet could be lost or is just delayed. So, the sender waits &amp; does not retransmit yet.</li>
+<li>When it receives the duplicate ACK thrice, it retransmits the missing packet.</li>
+</ul>
+
+<p>This simple retransmit mechanism has generally lead to a 20% improvement in link utilization.</p>
+
+<h3 id="finally">Finally</h3>
+
+<p>Alright, we have covered the basic concepts underlying TCP congestion control mechanisms. Let&rsquo;s go forwards from here another time. Maybe pick up one of the algorithms?</p>
+
+<p>We&rsquo;ll see. Ciao!</p>
+
+		</div>
 		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/tcp/" rel="tag">tcp</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/algorithm/" rel="tag">algorithm</a></li>
+	</ul>
+</div>
 
+	</article>
+	
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/tcp-congestion/" rel="prev"><span class="post-nav__caption"> &lt;&lt; Previous</span><p class="post-nav__post-title">TCP Congestion Control I: Overview</p></a>
 	</div>
+</nav>
+
+	
+</div>
 
 <aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 	
