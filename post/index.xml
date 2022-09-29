@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Uncombed Whiskers</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP Congestion Control III: BBR</title>
       <link>/post/tcp-congestion3/</link>
@@ -59,7 +55,6 @@ Networks are fascinating things; Links and network elements working together to 
       
       <guid>/post/ora-04091/</guid>
       <description>&lt;p&gt;Sounds familiar? A friend encountered it recently.&lt;/p&gt;
-
 &lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.&lt;/p&gt;</description>
     </item>
     
@@ -115,7 +110,6 @@ Networks are fascinating things; Links and network elements working together to 
       
       <guid>/post/yearnings/</guid>
       <description>&lt;p&gt;Strawberries and Cream.&lt;/p&gt;
-
 &lt;p&gt;Oh yeah, that was what I felt like having today; that very english summer delicacy. But alas, neither do we have strawberries lying around nor cream. Driven by my desire to sample this delectable delicacy (and not finding it close at hand), I ended up searching (yes, yes – google search – the bane of this generation and others to come) for it; and voila, stumbled upon some prose – the kind of which we don’t come across anymore.&lt;/p&gt;</description>
     </item>
     

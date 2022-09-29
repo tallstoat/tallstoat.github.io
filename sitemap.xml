@@ -1,210 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/tags/algorithm/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/code/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/tcp/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/tcp-congestion3/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/tcp-congestion2/</loc>
     <lastmod>2019-10-27T11:20:23+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/tcp-congestion/</loc>
     <lastmod>2019-10-26T13:38:18+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/beauty/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/docker/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/golang/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/docker-container-names/</loc>
     <lastmod>2017-06-13T22:54:35+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/ora-04091/</loc>
     <lastmod>2011-11-23T23:16:27+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/oracle/</loc>
     <lastmod>2011-11-23T23:16:27+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/rant/</loc>
     <lastmod>2011-11-23T23:16:27+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/life/</loc>
     <lastmod>2011-10-14T22:41:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/reality/</loc>
     <lastmod>2011-10-14T22:41:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/scratch/</loc>
     <lastmod>2011-10-14T22:41:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/smalltalk/</loc>
     <lastmod>2011-10-14T22:41:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/leadership/</loc>
     <lastmod>2011-02-18T23:11:36+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/politics/</loc>
     <lastmod>2011-02-18T23:11:36+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/circus/</loc>
     <lastmod>2011-02-18T23:11:36+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/editor/</loc>
     <lastmod>2010-11-25T23:15:23+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/vim/</loc>
     <lastmod>2010-11-25T23:15:23+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/vi/</loc>
     <lastmod>2010-11-25T23:15:23+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/js/</loc>
     <lastmod>2010-09-28T15:40:24+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/js1k-winner/</loc>
     <lastmod>2010-09-28T15:40:24+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/awk/</loc>
     <lastmod>2010-08-16T20:11:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/bbc/</loc>
     <lastmod>2010-08-16T20:11:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/shell/</loc>
     <lastmod>2010-08-16T20:11:32+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/cravings/</loc>
     <lastmod>2009-11-11T12:58:45+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/yearnings/</loc>
     <lastmod>2009-11-11T12:58:45+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/pearls/</loc>
     <lastmod>2009-01-06T19:26:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/perl/</loc>
     <lastmod>2009-01-06T19:26:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/us/</loc>
     <lastmod>2008-12-31T11:36:52+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/broken-windows/</loc>
     <lastmod>2008-11-25T04:03:04+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/study/</loc>
     <lastmod>2008-11-25T04:03:04+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/erlang/</loc>
     <lastmod>2008-05-08T06:50:13+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/hola/</loc>
     <lastmod>2008-05-08T06:50:13+05:30</lastmod>
   </url>
-  
 </urlset>
