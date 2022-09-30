@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 11:01:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pivot</title>
+      <link>/post/pivot/</link>
+      <pubDate>Thu, 29 Sep 2022 11:01:32 +0530</pubDate>
+      
+      <guid>/post/pivot/</guid>
+      <description>As seasons change and years pass, this old brain needs to learn new tricks to satiate it&amp;rsquo;s unending craving for solving ambiguous and hard problems.
+Well, it&amp;rsquo;s time to feed it the next set of problem fodder, so to speak; with an interesting &amp;lsquo;domain centric&amp;rsquo; pivot.
+Here&amp;rsquo;s raising one to jumping into the unknown 😉</description>
+    </item>
+    
     <item>
       <title>TCP Congestion Control III: BBR</title>
       <link>/post/tcp-congestion3/</link>
