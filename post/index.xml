@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Sep 2022 11:01:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 11:01:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week1</title>
+      <link>/post/week1/</link>
+      <pubDate>Sat, 08 Oct 2022 11:01:32 +0530</pubDate>
+      
+      <guid>/post/week1/</guid>
+      <description>As the first week at the new gig draws to a close, the total absurdity (in a very good way) of the development, build &amp;amp; deploy system here just blows my mind.
+I do not know if this is something I know enough about to discuss at this time or if that&amp;rsquo;s even allowed (you know NDA and such), but I can say for sure that the immense amount of engineer time &amp;amp; productivity lost in my last gig could have been salvaged - if only we had spent enough time thinking about &amp;amp; working on reducing the build &amp;amp; deploy times over the years, instead of sitting on our haunches, patting our backs &amp;amp; basking in the light of past laurels 😞</description>
+    </item>
+    
     <item>
       <title>Pivot</title>
       <link>/post/pivot/</link>
