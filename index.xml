@@ -6,7 +6,20 @@
     <description>Recent content on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2022 11:01:32 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 09:01:32 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threat Horizons</title>
+      <link>/post/threat_horizons_sep22/</link>
+      <pubDate>Fri, 14 Oct 2022 09:01:32 +0530</pubDate>
+      
+      <guid>/post/threat_horizons_sep22/</guid>
+      <description>Latest Threat Horizons report from Google Cloud is out!
+Insights These are a few insights from it.
+57.4% Cloud Compromises are due to weak or no credentials You&amp;rsquo;ve got to be kidding me! It&amp;rsquo;s 2022 for Pete&amp;rsquo;s sake!
+At least use STRONG password and MFA, if nothing else!
+65% of Compromises are used for Crypto Mining A bit surprising but it is what it is. SSH, WordPress, and RDP are most targeted Not surprized at all!</description>
+    </item>
+    
     <item>
       <title>Week1</title>
       <link>/post/week1/</link>
