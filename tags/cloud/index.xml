@@ -13,11 +13,7 @@
       <pubDate>Fri, 14 Oct 2022 09:01:32 +0530</pubDate>
       
       <guid>/post/threat_horizons_sep22/</guid>
-      <description>Latest Threat Horizons report from Google Cloud is out!
-Insights These are a few insights from it.
-57.4% Cloud Compromises are due to weak or no credentials You&amp;rsquo;ve got to be kidding me! It&amp;rsquo;s 2022 for Pete&amp;rsquo;s sake!
-At least use STRONG password and MFA, if nothing else!
-65% of Compromises are used for Crypto Mining A bit surprising but it is what it is. SSH, WordPress, and RDP are most targeted Not surprized at all!</description>
+      <description>&lt;p&gt;Latest &lt;a href=&#34;https://services.google.com/fh/files/blogs/gcat_threathorizons_full_sept2022.pdf&#34;&gt;Threat Horizons report from Google Cloud&lt;/a&gt; is out!&lt;/p&gt;</description>
     </item>
     
   </channel>

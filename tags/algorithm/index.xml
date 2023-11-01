@@ -13,8 +13,7 @@
       <pubDate>Sat, 09 Nov 2019 17:01:32 +0530</pubDate>
       
       <guid>/post/tcp-congestion3/</guid>
-      <description>In the first post in this series, we went with an overview of congestion control in networks (primarily to whet your appetite). Then, in the second post, we explored some of the basic concepts underpinning most of the loss-based congestion control algorithms.
-Now though instead of going over Reno, Tahoe or CUBIC which frankly are covered quite a bit elsewhere; in this post, lets take a look at BBR. It&amp;rsquo;s the new unruly kid on the block; who dare I say, plays a bit rough in the yard!</description>
+      <description>&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;first post in this series&lt;/a&gt;, we went with an overview of congestion control in networks (primarily to whet your appetite). Then, in the &lt;a href=&#34;/post/tcp-congestion2&#34;&gt;second post&lt;/a&gt;, we explored some of the basic concepts underpinning most of the loss-based congestion control algorithms.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,9 +22,8 @@ Now though instead of going over Reno, Tahoe or CUBIC which frankly are covered 
       <pubDate>Sun, 27 Oct 2019 11:20:23 +0530</pubDate>
       
       <guid>/post/tcp-congestion2/</guid>
-      <description>Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.
-In the last post, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.
-Modeling Networks While modeling networks in order to figure out strategies to combat congestion, one question almost always pops up.</description>
+      <description>&lt;p&gt;Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;last post&lt;/a&gt;, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,9 +32,7 @@ Modeling Networks While modeling networks in order to figure out strategies to c
       <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
       
       <guid>/post/tcp-congestion/</guid>
-      <description>It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.
-&amp;lsquo;cause, heck; why not!
-Networks are fascinating things; Links and network elements working together to ferry bytes from point A to point B.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.&lt;/p&gt;</description>
     </item>
     
   </channel>

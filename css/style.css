@@ -432,7 +432,6 @@ select {
 	font-weight: 700;
 	line-height: 1;
 	color: #0093C7;
-	border-top: 1px solid #ebebeb;
 }
 
 .divider {
@@ -630,8 +629,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding: 5px 0;
 	margin-top: 10px;
 	margin-top: .625rem;
-	border-top: 1px dotted #ebebeb;
-	border-bottom: 1px dotted #ebebeb;
 }
 
 .post__lead {
@@ -1163,8 +1160,6 @@ textarea {
 	font-size: 12px;
 	font-size: .75rem;
 	color: #999;
-	background: #2a2a2a;
-	border-top: 3px solid #999;
 }
 
 .footer__container {

@@ -6,16 +6,23 @@
     <description>Recent content in Posts on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Oct 2023 10:52:32 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Nov 2023 09:57:12 +0530</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Counter-intuitive</title>
+      <link>/post/counter-intuitive/</link>
+      <pubDate>Wed, 01 Nov 2023 09:57:12 +0530</pubDate>
+      
+      <guid>/post/counter-intuitive/</guid>
+      <description>&lt;p&gt;Came across a gem in first few pages of &lt;a href=&#34;https://www.amazon.in/Mind-Master-Winning-Lessons-ChampionS-ebook/dp/B081FZPY52/&#34;&gt;Vishy Anand&amp;rsquo;s Mindmaster&lt;/a&gt;, which resonated strongly with me.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Plunge</title>
       <link>/post/plunge/</link>
       <pubDate>Wed, 18 Oct 2023 10:52:32 +0530</pubDate>
       
       <guid>/post/plunge/</guid>
-      <description>As they say - dont idolize your heroes. Its always disappointing when you see them up close. Such is the case with doyens of technology.
-And so, this grizzled veteran is in search of another worthwhile campaign, yet again.
-May the path be kind to these old bones! 😉</description>
+      <description>&lt;p&gt;As they say - dont idolize your heroes. Its always disappointing when you see them up close. Such is the case with doyens of technology.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,8 +31,7 @@ May the path be kind to these old bones! 😉</description>
       <pubDate>Mon, 28 Nov 2022 08:02:32 +0530</pubDate>
       
       <guid>/post/obsoletion-by-ai/</guid>
-      <description>There has been a trend over the last 5-10 years, where more and more money is being thrown at startups who claim (mistakenly) to be making software developers obsolete by use of AI. Of course, as a rule - generalizations are never accurate. However, in this case it&amp;rsquo;s a bit funny to watch certain valley tech incubators and fund houses keep throwing good money in this area.
-IMO software developers being obsolete or sentient AI writing code is just a black hole.</description>
+      <description>&lt;p&gt;There has been a trend over the last 5-10 years, where more and more money is being thrown at startups who claim (mistakenly) to be &lt;strong&gt;making software developers obsolete by use of AI&lt;/strong&gt;. Of course, as a rule - generalizations are never accurate. However, in this case it&amp;rsquo;s a bit funny to watch certain valley tech incubators and fund houses keep throwing good money in this area.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,11 +40,7 @@ IMO software developers being obsolete or sentient AI writing code is just a bla
       <pubDate>Fri, 14 Oct 2022 09:01:32 +0530</pubDate>
       
       <guid>/post/threat_horizons_sep22/</guid>
-      <description>Latest Threat Horizons report from Google Cloud is out!
-Insights These are a few insights from it.
-57.4% Cloud Compromises are due to weak or no credentials You&amp;rsquo;ve got to be kidding me! It&amp;rsquo;s 2022 for Pete&amp;rsquo;s sake!
-At least use STRONG password and MFA, if nothing else!
-65% of Compromises are used for Crypto Mining A bit surprising but it is what it is. SSH, WordPress, and RDP are most targeted Not surprized at all!</description>
+      <description>&lt;p&gt;Latest &lt;a href=&#34;https://services.google.com/fh/files/blogs/gcat_threathorizons_full_sept2022.pdf&#34;&gt;Threat Horizons report from Google Cloud&lt;/a&gt; is out!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -47,8 +49,7 @@ At least use STRONG password and MFA, if nothing else!
       <pubDate>Sat, 08 Oct 2022 11:01:32 +0530</pubDate>
       
       <guid>/post/week1/</guid>
-      <description>As the first week at the new gig draws to a close, the total absurdity (in a very good way) of the development, build &amp;amp; deploy systems here just blows my mind. If I had to choose just one of those, I would choose the build system.
-I do not know if this is something I know enough about to discuss at this time or if that&amp;rsquo;s even allowed (you know NDA and such), but I can say for sure that the immense amount of engineer time &amp;amp; productivity lost in my last gig could have been salvaged - if only we had spent enough time thinking about &amp;amp; working on reducing the build times over the years, instead of sitting on our haunches, patting our backs &amp;amp; basking in the light of past laurels 😞</description>
+      <description>&lt;p&gt;As the first week at the new gig draws to a close, the total absurdity (in a very good way) of the &lt;strong&gt;development, build &amp;amp; deploy systems&lt;/strong&gt; here just blows my mind. If I had to choose just one of those, I would choose the &lt;strong&gt;build&lt;/strong&gt; system.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,9 +58,7 @@ I do not know if this is something I know enough about to discuss at this time o
       <pubDate>Thu, 29 Sep 2022 11:01:32 +0530</pubDate>
       
       <guid>/post/pivot/</guid>
-      <description>As seasons change and years pass, this old brain needs to learn new tricks to satiate it&amp;rsquo;s unending craving for solving ambiguous and hard problems.
-Well, it&amp;rsquo;s time to feed it the next set of problem fodder, so to speak; with an interesting &amp;lsquo;domain centric&amp;rsquo; pivot.
-Here&amp;rsquo;s raising a ☕ to jumping into the unknown&amp;hellip;sort of 😉</description>
+      <description>&lt;p&gt;As seasons change and years pass, this old brain needs to learn new tricks to satiate it&amp;rsquo;s unending craving for solving &lt;strong&gt;ambiguous and hard&lt;/strong&gt; problems.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,8 +67,7 @@ Here&amp;rsquo;s raising a ☕ to jumping into the unknown&amp;hellip;sort of �
       <pubDate>Sat, 09 Nov 2019 17:01:32 +0530</pubDate>
       
       <guid>/post/tcp-congestion3/</guid>
-      <description>In the first post in this series, we went with an overview of congestion control in networks (primarily to whet your appetite). Then, in the second post, we explored some of the basic concepts underpinning most of the loss-based congestion control algorithms.
-Now though instead of going over Reno, Tahoe or CUBIC which frankly are covered quite a bit elsewhere; in this post, lets take a look at BBR. It&amp;rsquo;s the new unruly kid on the block; who dare I say, plays a bit rough in the yard!</description>
+      <description>&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;first post in this series&lt;/a&gt;, we went with an overview of congestion control in networks (primarily to whet your appetite). Then, in the &lt;a href=&#34;/post/tcp-congestion2&#34;&gt;second post&lt;/a&gt;, we explored some of the basic concepts underpinning most of the loss-based congestion control algorithms.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -78,9 +76,8 @@ Now though instead of going over Reno, Tahoe or CUBIC which frankly are covered 
       <pubDate>Sun, 27 Oct 2019 11:20:23 +0530</pubDate>
       
       <guid>/post/tcp-congestion2/</guid>
-      <description>Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.
-In the last post, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.
-Modeling Networks While modeling networks in order to figure out strategies to combat congestion, one question almost always pops up.</description>
+      <description>&lt;p&gt;Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;last post&lt;/a&gt;, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,9 +86,7 @@ Modeling Networks While modeling networks in order to figure out strategies to c
       <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
       
       <guid>/post/tcp-congestion/</guid>
-      <description>It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.
-&amp;lsquo;cause, heck; why not!
-Networks are fascinating things; Links and network elements working together to ferry bytes from point A to point B.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -100,7 +95,7 @@ Networks are fascinating things; Links and network elements working together to 
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
       
       <guid>/post/docker-container-names/</guid>
-      <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated? Let me unravel this mystery for you today.&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated?&lt;/p&gt;</description>
     </item>
     
     <item>
