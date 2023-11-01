@@ -6,16 +6,7 @@
     <description>Recent content in code on Uncombed Whiskers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 08:02:32 +0530</lastBuildDate><atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Obsoletion by AI</title>
-      <link>/post/obsoletion-by-ai/</link>
-      <pubDate>Mon, 28 Nov 2022 08:02:32 +0530</pubDate>
-      
-      <guid>/post/obsoletion-by-ai/</guid>
-      <description>&lt;p&gt;There has been a trend over the last 5-10 years, where more and more money is being thrown at startups who claim (mistakenly) to be &lt;strong&gt;making software developers obsolete by use of AI&lt;/strong&gt;. Of course, as a rule - generalizations are never accurate. However, in this case it&amp;rsquo;s a bit funny to watch certain valley tech incubators and fund houses keep throwing good money in this area.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate><atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP Congestion Control III: BBR</title>
       <link>/post/tcp-congestion3/</link>
@@ -87,11 +78,11 @@
       <pubDate>Tue, 28 Sep 2010 15:40:24 +0530</pubDate>
       
       <guid>/post/js1k-winner/</guid>
-      <description>&lt;p&gt;The JS1K winner has been announced. The entry is described in detail in a post by the programmer.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The JS1K winner has been announced. The entry is described in detail in a post by the programmer &lt;a href=&#34;http://marijnhaverbeke.nl/js1k/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>BBC breaking news on logging-in to your favorite shell</title>
+      <title>BBC breaking news in your favorite shell</title>
       <link>/post/bbc/</link>
       <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
       
@@ -106,6 +97,15 @@
       
       <guid>/post/pearls/</guid>
       <description>&lt;p&gt;Reprinted from a veritable Perl/Tcl vs Scheme flame war of yore; of course without permission&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Broken Windows Theory</title>
+      <link>/post/broken-windows/</link>
+      <pubDate>Tue, 25 Nov 2008 04:03:04 +0530</pubDate>
+      
+      <guid>/post/broken-windows/</guid>
+      <description>&lt;p&gt;Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that &lt;strong&gt;in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

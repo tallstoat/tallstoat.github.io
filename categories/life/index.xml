@@ -35,15 +35,6 @@
     </item>
     
     <item>
-      <title>Scratchin &amp; Squeakin</title>
-      <link>/post/scratch/</link>
-      <pubDate>Fri, 14 Oct 2011 22:41:32 +0530</pubDate>
-      
-      <guid>/post/scratch/</guid>
-      <description>&lt;p&gt;A friend introduced me to &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;scratch&lt;/a&gt; today. I wrote a trivial program with it - A plane falling down on an unassuming unaware kitty, with sound effects of course.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>The circus is in town</title>
       <link>/post/circus/</link>
       <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
@@ -77,7 +68,7 @@
       <pubDate>Tue, 25 Nov 2008 04:03:04 +0530</pubDate>
       
       <guid>/post/broken-windows/</guid>
-      <description>&lt;p&gt;Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that “in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.”&lt;/p&gt;</description>
+      <description>&lt;p&gt;Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that &lt;strong&gt;in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

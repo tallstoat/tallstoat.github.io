@@ -8,16 +8,13 @@
     <loc>/post/counter-intuitive/</loc>
     <lastmod>2023-11-01T09:57:12+05:30</lastmod>
   </url><url>
+    <loc>/tags/inspiration/</loc>
+    <lastmod>2023-11-01T09:57:12+05:30</lastmod>
+  </url><url>
     <loc>/categories/life/</loc>
     <lastmod>2023-11-01T09:57:12+05:30</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2023-11-01T09:57:12+05:30</lastmod>
-  </url><url>
-    <loc>/tags/rant/</loc>
-    <lastmod>2023-11-01T09:57:12+05:30</lastmod>
-  </url><url>
-    <loc>/tags/reality/</loc>
     <lastmod>2023-11-01T09:57:12+05:30</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -29,22 +26,22 @@
     <loc>/post/plunge/</loc>
     <lastmod>2023-10-18T10:52:32+05:30</lastmod>
   </url><url>
+    <loc>/tags/reality/</loc>
+    <lastmod>2023-10-18T10:52:32+05:30</lastmod>
+  </url><url>
     <loc>/tags/ai/</loc>
     <lastmod>2022-11-28T08:02:32+05:30</lastmod>
   </url><url>
-    <loc>/categories/code/</loc>
+    <loc>/post/obsoletion-by-ai/</loc>
     <lastmod>2022-11-28T08:02:32+05:30</lastmod>
   </url><url>
-    <loc>/post/obsoletion-by-ai/</loc>
+    <loc>/categories/tech/</loc>
     <lastmod>2022-11-28T08:02:32+05:30</lastmod>
   </url><url>
     <loc>/tags/cloud/</loc>
     <lastmod>2022-10-14T09:01:32+05:30</lastmod>
   </url><url>
     <loc>/tags/security/</loc>
-    <lastmod>2022-10-14T09:01:32+05:30</lastmod>
-  </url><url>
-    <loc>/categories/tech/</loc>
     <lastmod>2022-10-14T09:01:32+05:30</lastmod>
   </url><url>
     <loc>/post/threat_horizons_sep22/</loc>
@@ -60,6 +57,9 @@
     <lastmod>2022-09-29T11:01:32+05:30</lastmod>
   </url><url>
     <loc>/tags/algorithm/</loc>
+    <lastmod>2019-11-09T17:01:32+05:30</lastmod>
+  </url><url>
+    <loc>/categories/code/</loc>
     <lastmod>2019-11-09T17:01:32+05:30</lastmod>
   </url><url>
     <loc>/tags/tcp/</loc>
@@ -90,6 +90,9 @@
     <lastmod>2011-11-23T23:16:27+05:30</lastmod>
   </url><url>
     <loc>/tags/oracle/</loc>
+    <lastmod>2011-11-23T23:16:27+05:30</lastmod>
+  </url><url>
+    <loc>/tags/rant/</loc>
     <lastmod>2011-11-23T23:16:27+05:30</lastmod>
   </url><url>
     <loc>/post/scratch/</loc>
