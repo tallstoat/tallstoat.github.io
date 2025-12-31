@@ -1,75 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>life on Uncombed Whiskers</title>
+    <title>Life on Uncombed Whiskers</title>
     <link>/categories/life/</link>
-    <description>Recent content in life on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Life on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Nov 2023 09:57:12 +0530</lastBuildDate><atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Nov 2023 09:57:12 +0530</lastBuildDate>
+    <atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Counter-intuitive</title>
       <link>/post/counter-intuitive/</link>
       <pubDate>Wed, 01 Nov 2023 09:57:12 +0530</pubDate>
-      
       <guid>/post/counter-intuitive/</guid>
       <description>&lt;p&gt;Came across a gem in first few pages of &lt;a href=&#34;https://www.amazon.in/Mind-Master-Winning-Lessons-ChampionS-ebook/dp/B081FZPY52/&#34;&gt;Vishy Anand&amp;rsquo;s Mindmaster&lt;/a&gt;, which resonated strongly with me.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Plunge</title>
       <link>/post/plunge/</link>
       <pubDate>Wed, 18 Oct 2023 10:52:32 +0530</pubDate>
-      
       <guid>/post/plunge/</guid>
       <description>&lt;p&gt;As they say - dont idolize your heroes. Its always disappointing when you see them up close. Such is the case with doyens of technology.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pivot</title>
       <link>/post/pivot/</link>
       <pubDate>Thu, 29 Sep 2022 11:01:32 +0530</pubDate>
-      
       <guid>/post/pivot/</guid>
       <description>&lt;p&gt;As seasons change and years pass, this old brain needs to learn new tricks to satiate it&amp;rsquo;s unending craving for solving &lt;strong&gt;ambiguous and hard&lt;/strong&gt; problems.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The circus is in town</title>
       <link>/post/circus/</link>
       <pubDate>Fri, 18 Feb 2011 23:11:36 +0530</pubDate>
-      
       <guid>/post/circus/</guid>
       <description>&lt;p&gt;Read an article on &lt;a href=&#34;http://www.haaretz.com&#34;&gt;Haaretz&lt;/a&gt; last year. Sadly can&amp;rsquo;t find the link online anymore. Thankfully, I had the gist copied elsewhere.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Yearnings</title>
       <link>/post/yearnings/</link>
       <pubDate>Wed, 11 Nov 2009 12:58:45 +0530</pubDate>
-      
       <guid>/post/yearnings/</guid>
-      <description>&lt;p&gt;Strawberries and Cream.&lt;/p&gt;
-&lt;p&gt;Oh yeah, that was what I felt like having today; that very english summer delicacy. But alas, neither do we have strawberries lying around nor cream. Driven by my desire to sample this delectable delicacy (and not finding it close at hand), I ended up searching (yes, yes – google search – the bane of this generation and others to come) for it; and voila, stumbled upon some prose – the kind of which we don’t come across anymore.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Strawberries and Cream.&lt;/p&gt;&#xA;&lt;p&gt;Oh yeah, that was what I felt like having today; that very english summer delicacy. But alas, neither do we have strawberries lying around nor cream. Driven by my desire to sample this delectable delicacy (and not finding it close at hand), I ended up searching (yes, yes – google search – the bane of this generation and others to come) for it; and voila, stumbled upon some prose – the kind of which we don’t come across anymore.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Us</title>
       <link>/post/us/</link>
       <pubDate>Wed, 31 Dec 2008 11:36:52 +0530</pubDate>
-      
       <guid>/post/us/</guid>
       <description>&lt;p&gt;In Thud, the dwarf Bashfullsson says “I need no axe to be a dwarf, Nor do I need to hate trolls. What kind of creature defines itself by hatred?”.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Broken Windows Theory</title>
       <link>/post/broken-windows/</link>
       <pubDate>Tue, 25 Nov 2008 04:03:04 +0530</pubDate>
-      
       <guid>/post/broken-windows/</guid>
       <description>&lt;p&gt;Scientific American’s latest 60 seconds science podcast concerns the broken windows theory which states that &lt;strong&gt;in a neighborhood where buildings have broken windows, people are more likely to engage in bad behavior.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

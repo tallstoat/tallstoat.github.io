@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tech on Uncombed Whiskers</title>
+    <title>Tech on Uncombed Whiskers</title>
     <link>/categories/tech/</link>
-    <description>Recent content in tech on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tech on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 08:02:32 +0530</lastBuildDate><atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 08:02:32 +0530</lastBuildDate>
+    <atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obsoletion by AI</title>
       <link>/post/obsoletion-by-ai/</link>
       <pubDate>Mon, 28 Nov 2022 08:02:32 +0530</pubDate>
-      
       <guid>/post/obsoletion-by-ai/</guid>
       <description>&lt;p&gt;There has been a trend over the last 5-10 years, where more and more money is being thrown at startups who claim (mistakenly) to be &lt;strong&gt;making software developers obsolete by use of AI&lt;/strong&gt;. Of course, as a rule - generalizations are never accurate. However, in this case it&amp;rsquo;s a bit funny to watch certain valley tech incubators and fund houses keep throwing good money in this area.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Threat Horizons</title>
       <link>/post/threat_horizons_sep22/</link>
       <pubDate>Fri, 14 Oct 2022 09:01:32 +0530</pubDate>
-      
       <guid>/post/threat_horizons_sep22/</guid>
       <description>&lt;p&gt;Latest &lt;a href=&#34;https://services.google.com/fh/files/blogs/gcat_threathorizons_full_sept2022.pdf&#34;&gt;Threat Horizons report from Google Cloud&lt;/a&gt; is out!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week1</title>
       <link>/post/week1/</link>
       <pubDate>Sat, 08 Oct 2022 11:01:32 +0530</pubDate>
-      
       <guid>/post/week1/</guid>
       <description>&lt;p&gt;As the first week at the new gig draws to a close, the total absurdity (in a very good way) of the &lt;strong&gt;development, build &amp;amp; deploy systems&lt;/strong&gt; here just blows my mind. If I had to choose just one of those, I would choose the &lt;strong&gt;build&lt;/strong&gt; system.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

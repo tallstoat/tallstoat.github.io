@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tcp on Uncombed Whiskers</title>
+    <title>Tcp on Uncombed Whiskers</title>
     <link>/tags/tcp/</link>
-    <description>Recent content in tcp on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tcp on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate><atom:link href="/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Nov 2019 17:01:32 +0530</lastBuildDate>
+    <atom:link href="/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP Congestion Control III: BBR</title>
       <link>/post/tcp-congestion3/</link>
       <pubDate>Sat, 09 Nov 2019 17:01:32 +0530</pubDate>
-      
       <guid>/post/tcp-congestion3/</guid>
       <description>&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;first post in this series&lt;/a&gt;, we went with an overview of congestion control in networks (primarily to whet your appetite). Then, in the &lt;a href=&#34;/post/tcp-congestion2&#34;&gt;second post&lt;/a&gt;, we explored some of the basic concepts underpinning most of the loss-based congestion control algorithms.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TCP Congestion Control II: Concepts</title>
       <link>/post/tcp-congestion2/</link>
       <pubDate>Sun, 27 Oct 2019 11:20:23 +0530</pubDate>
-      
       <guid>/post/tcp-congestion2/</guid>
-      <description>&lt;p&gt;Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.&lt;/p&gt;
-&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;last post&lt;/a&gt;, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ah, so we&amp;rsquo;re back again. Let&amp;rsquo;s see if we can cover some distance this time.&lt;/p&gt;&#xA;&lt;p&gt;In the &lt;a href=&#34;/post/tcp-congestion&#34;&gt;last post&lt;/a&gt;, we went with an overview of congestion control in networks. In this post, lets take a look at some of the concepts mentioned in the previous post and some new ones to aid our understanding of this subject.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TCP Congestion Control I: Overview</title>
       <link>/post/tcp-congestion/</link>
       <pubDate>Sat, 26 Oct 2019 13:38:18 +0530</pubDate>
-      
       <guid>/post/tcp-congestion/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a while since I picked up the proverbial pen to jot down my ramblings. The usual trappings of work and life have encumbered me. But then again, the curious mind just needs to take a liking to something for the muse to strike. So here I am; digging into TCP congestion control mechanisms &amp;amp; the underlying algorithms.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ai on Uncombed Whiskers</title>
+    <title>Ai on Uncombed Whiskers</title>
     <link>/tags/ai/</link>
-    <description>Recent content in ai on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ai on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 08:02:32 +0530</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 08:02:32 +0530</lastBuildDate>
+    <atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obsoletion by AI</title>
       <link>/post/obsoletion-by-ai/</link>
       <pubDate>Mon, 28 Nov 2022 08:02:32 +0530</pubDate>
-      
       <guid>/post/obsoletion-by-ai/</guid>
       <description>&lt;p&gt;There has been a trend over the last 5-10 years, where more and more money is being thrown at startups who claim (mistakenly) to be &lt;strong&gt;making software developers obsolete by use of AI&lt;/strong&gt;. Of course, as a rule - generalizations are never accurate. However, in this case it&amp;rsquo;s a bit funny to watch certain valley tech incubators and fund houses keep throwing good money in this area.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

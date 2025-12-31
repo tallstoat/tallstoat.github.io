@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>build on Uncombed Whiskers</title>
+    <title>Build on Uncombed Whiskers</title>
     <link>/tags/build/</link>
-    <description>Recent content in build on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Build on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2022 11:01:32 +0530</lastBuildDate><atom:link href="/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 11:01:32 +0530</lastBuildDate>
+    <atom:link href="/tags/build/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week1</title>
       <link>/post/week1/</link>
       <pubDate>Sat, 08 Oct 2022 11:01:32 +0530</pubDate>
-      
       <guid>/post/week1/</guid>
       <description>&lt;p&gt;As the first week at the new gig draws to a close, the total absurdity (in a very good way) of the &lt;strong&gt;development, build &amp;amp; deploy systems&lt;/strong&gt; here just blows my mind. If I had to choose just one of those, I would choose the &lt;strong&gt;build&lt;/strong&gt; system.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

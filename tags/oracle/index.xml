@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>oracle on Uncombed Whiskers</title>
+    <title>Oracle on Uncombed Whiskers</title>
     <link>/tags/oracle/</link>
-    <description>Recent content in oracle on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Oracle on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2011 23:16:27 +0530</lastBuildDate><atom:link href="/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2011 23:16:27 +0530</lastBuildDate>
+    <atom:link href="/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ORA-04091</title>
       <link>/post/ora-04091/</link>
       <pubDate>Wed, 23 Nov 2011 23:16:27 +0530</pubDate>
-      
       <guid>/post/ora-04091/</guid>
-      <description>&lt;p&gt;Sounds familiar? A friend encountered it recently.&lt;/p&gt;
-&lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sounds familiar? A friend encountered it recently.&lt;/p&gt;&#xA;&lt;p&gt;Mutating table problem from within a row level trigger on running a SELECT on the same table.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

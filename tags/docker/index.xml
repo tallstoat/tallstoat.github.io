@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on Uncombed Whiskers</title>
+    <title>Docker on Uncombed Whiskers</title>
     <link>/tags/docker/</link>
-    <description>Recent content in docker on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Docker on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2017 22:54:35 +0530</lastBuildDate>
+    <atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quirky Container Names</title>
       <link>/post/docker-container-names/</link>
       <pubDate>Tue, 13 Jun 2017 22:54:35 +0530</pubDate>
-      
       <guid>/post/docker-container-names/</guid>
       <description>&lt;p&gt;If you work with docker containers, you would have noticed the quirky names that docker generates for your containers. Ever wondered how they are generated?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

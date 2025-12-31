@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shell on Uncombed Whiskers</title>
+    <title>Shell on Uncombed Whiskers</title>
     <link>/tags/shell/</link>
-    <description>Recent content in shell on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Shell on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Aug 2010 20:11:32 +0530</lastBuildDate><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2010 20:11:32 +0530</lastBuildDate>
+    <atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BBC breaking news in your favorite shell</title>
       <link>/post/bbc/</link>
       <pubDate>Mon, 16 Aug 2010 20:11:32 +0530</pubDate>
-      
       <guid>/post/bbc/</guid>
       <description>&lt;p&gt;Crude yet working one-liner; Add to your favorite .rc file and Enjoy!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

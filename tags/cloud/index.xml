@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cloud on Uncombed Whiskers</title>
+    <title>Cloud on Uncombed Whiskers</title>
     <link>/tags/cloud/</link>
-    <description>Recent content in cloud on Uncombed Whiskers</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cloud on Uncombed Whiskers</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Oct 2022 09:01:32 +0530</lastBuildDate><atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 09:01:32 +0530</lastBuildDate>
+    <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Threat Horizons</title>
       <link>/post/threat_horizons_sep22/</link>
       <pubDate>Fri, 14 Oct 2022 09:01:32 +0530</pubDate>
-      
       <guid>/post/threat_horizons_sep22/</guid>
       <description>&lt;p&gt;Latest &lt;a href=&#34;https://services.google.com/fh/files/blogs/gcat_threathorizons_full_sept2022.pdf&#34;&gt;Threat Horizons report from Google Cloud&lt;/a&gt; is out!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
